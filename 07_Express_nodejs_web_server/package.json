@@ -5,11 +5,12 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon index"
+    "dev": "nodemon server"
   },
   "author": "Dave Gray",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "date-fns": "^2.23.0",
     "dotenv": "^16.4.5",
     "uuid": "^8.3.2"
